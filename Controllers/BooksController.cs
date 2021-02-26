@@ -10,11 +10,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibraryMVC.Controllers
 {
-    public class BookController : Controller
+    public class BooksController : Controller
     {
         private readonly LibraryDbContext _db;
 
-        public BookController(LibraryDbContext db)
+        [BindProperty]
+        public Book Book { get; set; }
+
+        public BooksController(LibraryDbContext db)
         {
             _db = db;
         }
@@ -24,7 +27,43 @@ namespace LibraryMVC.Controllers
             return View();
         }
 
+        public IActionResult Upsert(int? id)
+        {
+            Book = new Book();
+            if (id==null)
+            {
+                return View(Book);
+            }
+            Book = _db.Books.FirstOrDefault(u => u.Id == id);
+            if (Book==null)
+            {
+                return NotFound();
+            }
+            return View(Book);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert()
+        {
+            if (ModelState.IsValid)
+            {
+                if (Book.Id == 0)
+                {
+                    _db.Books.Add(Book);
+                }
+                else
+                {
+                    _db.Books.Update(Book);
+                }
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+         
+            return View(Book);
+        }
         // GET: /<controller>/
+        #region API Calls
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -43,5 +82,6 @@ namespace LibraryMVC.Controllers
             await _db.SaveChangesAsync();
             return Json(new { success = true, message = "Delete successful" });
         }
+        #endregion
     }
 }
