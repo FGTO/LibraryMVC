@@ -53,8 +53,6 @@
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -133,14 +131,11 @@
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
-/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Http.dll
-/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.dll
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -386,3 +381,12 @@
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/LibraryMVC.MvcApplicationPartsAssemblyInfo.cs
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Views/Books/Index.cshtml.g.cs
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Views/Books/Upsert.cshtml.g.cs
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/LibraryMVC.StaticWebAssets.xml
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
