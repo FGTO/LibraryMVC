@@ -1,7 +1,7 @@
 ﻿@model LibraryMVC.Models.Book
 
 <br />
-<h2 class="text-info">@(Model.Id!=0?"Edit":"Create") Book</h2>
+<h2 class="text-info">@(Model.Id!=0?"Edit":"Create new") Book</h2>
 <br />
 
 <div class="border container" style="padding:30px;">
@@ -12,11 +12,11 @@
         }
         <div class="form-group row">
             <div class="col-3">
-                <label asp-for="Name"></label>
+                <label asp-for="Title"></label>
             </div>
             <div class="col-6">
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
             </div>
         </div>
 

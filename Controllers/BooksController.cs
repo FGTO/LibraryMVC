@@ -28,7 +28,6 @@ namespace LibraryMVC.Controllers
             return View();
         }
 
-        [Authorize]
         public IActionResult Upsert(int? id)
         {
             Book = new Book();

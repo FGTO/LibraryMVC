@@ -30,6 +30,7 @@ namespace LibraryMVC
                 options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<LibraryDbContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<LibraryDbContext>();
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddControllersWithViews();
@@ -54,6 +55,7 @@ namespace LibraryMVC
 
             app.UseRouting();
 
+            
             app.UseAuthorization();
             app.UseAuthentication();
 

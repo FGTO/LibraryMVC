@@ -19,8 +19,8 @@ namespace LibraryMVC.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("LibraryDbContextConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<LibraryDbContext>();
+                //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    //.AddEntityFrameworkStores<LibraryDbContext>();
             });
         }
     }
