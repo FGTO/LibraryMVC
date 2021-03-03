@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LibraryMVC.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,14 +10,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibraryMVC.Controllers
 {
-    public class BooksController : Controller
+    public class BookController : Controller
     {
         private readonly LibraryDbContext _db;
 
-        [BindProperty]
-        public Book Book { get; set; }
-
-        public BooksController(LibraryDbContext db)
+        public BookController(LibraryDbContext db)
         {
             _db = db;
         }
@@ -28,6 +24,7 @@ namespace LibraryMVC.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         public IActionResult Upsert(int? id)
         {
             Book = new Book();
@@ -63,8 +60,9 @@ namespace LibraryMVC.Controllers
          
             return View(Book);
         }
+=======
+>>>>>>> parent of 30d21e7 (Add authorization adn authentication)
         // GET: /<controller>/
-        #region API Calls
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -83,6 +81,5 @@ namespace LibraryMVC.Controllers
             await _db.SaveChangesAsync();
             return Json(new { success = true, message = "Delete successful" });
         }
-        #endregion
     }
 }
