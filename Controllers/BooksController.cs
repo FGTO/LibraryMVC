@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LibraryMVC.Data;
 using LibraryMVC.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +26,7 @@ namespace LibraryMVC.Controllers
 
         public IActionResult Index()
         {
+            bool isAdmin = User.IsInRole("Admin");
             return View();
         }
 

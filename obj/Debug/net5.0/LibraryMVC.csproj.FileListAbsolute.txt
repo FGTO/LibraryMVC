@@ -478,3 +478,6 @@
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Error.cshtml.g.cs
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
 /Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Views/Role/Create.cshtml.g.cs
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Views/Role/Index.cshtml.g.cs
+/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/obj/Debug/net5.0/Razor/Views/Role/Update.cshtml.g.cs

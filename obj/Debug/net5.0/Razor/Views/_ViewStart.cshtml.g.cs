@@ -26,8 +26,15 @@ using LibraryMVC.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/fongto/Documents/Lexicon/WebAPI/Project/LibraryMVC/LibraryMVC/Views/_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f400a24e4f1c1f8dbc87c0f761266a45e781e06b", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"67470e6d9c7ae9a0bf6a45d379f98b3b70d41602", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57f0b91f5cf030f68d2ae2e132d82c54fa01f9b1", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

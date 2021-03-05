@@ -18,5 +18,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Books\" />
+    <Folder Include="Views\Role\" />
+    <Folder Include="TagHelper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\IdentityHostingStartup.cs" />
+    <Content Remove="wwwroot\IdentityHostingStartupOLD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Areas\Identity\IdentityHostingStartup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Identity\IdentityHostingStartup.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
 </Project>

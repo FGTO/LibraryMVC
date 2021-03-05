@@ -14,14 +14,15 @@ namespace LibraryMVC.Areas.Identity
     {
         public void Configure(IWebHostBuilder builder)
         {
-            builder.ConfigureServices((context, services) => {
-                services.AddDbContext<LibraryDbContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("LibraryDbContextConnection")));
+            //builder.ConfigureServices((context, services) =>
+            //{
+            //    services.AddDbContext<LibraryDbContext>(options =>
+            //        options.UseSqlServer(
+            //            context.Configuration.GetConnectionString("LibraryDbContextConnection")));
 
-                //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    //.AddEntityFrameworkStores<LibraryDbContext>();
-            });
+            //    //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //    //.AddEntityFrameworkStores<LibraryDbContext>();
+            //});
         }
     }
 }

@@ -32,6 +32,12 @@ namespace LibraryMVC.Areas.Identity.Pages.Account.Manage
 
         public class InputModel
         {
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "Name")]
+            public string Name { get; set; }
+
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
@@ -46,6 +52,7 @@ namespace LibraryMVC.Areas.Identity.Pages.Account.Manage
 
             Input = new InputModel
             {
+                Name = user.UserName,
                 PhoneNumber = phoneNumber
             };
         }
@@ -86,6 +93,13 @@ namespace LibraryMVC.Areas.Identity.Pages.Account.Manage
                     return RedirectToPage();
                 }
             }
+
+            if (Input.Name != user.UserName)
+            {
+                user.UserName = Input.Name;
+            }
+
+            await _userManager.UpdateAsync(user);
 
             await _signInManager.RefreshSignInAsync(user);
             StatusMessage = "Your profile has been updated";
